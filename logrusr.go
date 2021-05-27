@@ -66,7 +66,7 @@ func (l *logrusr) Enabled() bool {
 
 // V is a part of the Logger interface. Calling the method will change the
 // global log severity for the logr implementation.
-func (l *logrusr) V(level int) logr.InfoLogger {
+func (l *logrusr) V(level int) logr.Logger {
 	newLogger := l.copyLogger()
 	newLogger.level = level
 

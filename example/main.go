@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/bombsimon/logrusr"
 	"github.com/go-logr/logr"
+	"github.com/lwangrabbit/logrusr"
 	"github.com/sirupsen/logrus"
 )
 
